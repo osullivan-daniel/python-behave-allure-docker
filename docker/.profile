@@ -6,7 +6,7 @@ export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\] \
 alias ll="ls -la"
 
 # linuxbrew
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+eval "$(/home/keyserSoze/.linuxbrew/bin/brew shellenv)"
 
 # python libs
 export PATH="$PATH:/home/keyserSoze/.local/bin"
