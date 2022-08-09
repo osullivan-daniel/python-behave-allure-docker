@@ -22,6 +22,11 @@ Once registered:
     - Copy your 'Primary key' and replace the string 'PUT_YOUR_APP_KEY_HERE' in your 'tfl.json' 
     - This will be coppied over to the container for you 
 
+### mediawiki
+Mediawiki tests are designed to run against a local containerised verson instructons here:
+https://www.mediawiki.org/wiki/MediaWiki-Docker
+
+
 ### Build a running the docker container
 from the docker directory run (--no-cache as when we rebuild it we want it to pull a fresh copy of the test repo):
 ```bash
